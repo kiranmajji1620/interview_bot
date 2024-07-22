@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI-Bot</title>
+    <link rel="stylesheet" href="static\\styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="chat-container">
+        <header>
+            <h1>AI-Gen ChatBot</h1>
+            <h4>Please start your personalized interaction with the chatbot</h4>
+        </header>
+        <main>
+            <div id="chatbox" class="chat-box">
+                <p class="botText"><span>Hi! I'm your AI-Generative Chatbot</span></p>
+            </div>
+        </main>
+        <footer>
+            <div class="input-container">
+                <input id="textInput" type="text" name="msg" placeholder="Type your message here..." />
+            </div>
+        </footer>
+    </div>
+    <script>
+        function getBotResponse() {
+            var rawText = $("#textInput").val();
+            var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+            $("#textInput").val("");
+            $("#chatbox").append(userHtml);
+            document
+                .getElementById("chatbox")
+                .scrollIntoView({ block: "end", behavior: "smooth" });
+            $.get("/get", { msg: rawText }).done(function (data) {
+                var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+                $("#chatbox").append(botHtml);
+                document
+                    .getElementById("chatbox")
+                    .scrollIntoView({ block: "end", behavior: "smooth" });
+            });
+        }
+
+        $("#textInput").keypress(function (e) {
+            if (e.which == 13) {
+                getBotResponse();
+            }
+        });
+    </script>
+</body>
+
+</html>
