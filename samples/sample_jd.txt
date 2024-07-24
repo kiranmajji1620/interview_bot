@@ -1,0 +1,19 @@
+Internship: Full-stack Engineering + LLMs
+Saleso.ai is a stealth startup building an intelligent “audio/video salesperson for the website”
+that can engage customers (like an ideal SalesPerson would), and provide a custom consumer
+education journey, leveraging conversational LLMs (Generative AI).
+We are looking for highly motivated students with interest in Full-stack Engineering & LLMs
+for a duration of 3-6 months (part-time/full-time) with the following skillset:
+● Exceptional coding experience in at least one of the following Programming Paradigms:
+Python, NodeJS/Nest.js, ReactJS/Next.js, JavaScript, three.js.
+● LLMs: Hands-on experience with Retrieval-Augmented-Generation (RAG) and
+fine-tuning LLMs, leveraging LangChain/LlamaIndex is an added advantage.
+● Good understanding of progressive WebApp development with container-based
+Microservices Architecture, and hosting on Google Cloud Platform (GCP)/AWS/Azure is
+essential.
+● Prior experience with building & deploying Conversational AI/Chatbots is highly
+desirable.
+● Web Sockets (socket.io), REST APIs, gRPC
+● Experience with at least one NoSQL DB: TimescaleDB/Cassandra/InfluxDB, MySQL,
+Redis
+● Experience with event streaming platforms like Kafka is nice to have.

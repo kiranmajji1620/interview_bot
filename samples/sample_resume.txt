@@ -1,0 +1,50 @@
+Sai Kiran Majji
+ +91-9292757580 # kiranmajji1620@gmail.com ï LinkedIn § Github
+Education
+Indian Institute of Information Technology, Kancheepuram Dec 2021 - Present
+Bachelor of Technology in Electronics and Communication Engineering - CGPA: 8.84* Chennai, India
+Tirumala Junior Kalasala Jun 2019 - May 2021
+Intermediate - Score: 97.5% Rajahmundry, India
+Jawahar Navodaya Vidyalaya May 2019
+Matriculation - Score: 94.6% Peddapuram, India
+Skills
+Programming Languages: Python, C/C++, SQL, Matlab, JavaScript, LATEX.
+Frameworks: Langchain, HuggingFace, OpenAI, TensorFlow, PyTorch, Scikit-learn, Keras, Llama Index, Ollama,
+MediaPipe, streamlit.
+Libraries: NumPy, Pandas, Matplotlib, Seaborn, Scipy, OpenCV, nltk, gensim.
+Skills: Statistical Analysis, Predictive Analysis, Natural Language Processing, Image Processing, Signal Processing,
+Technical Documentation.
+Developer Tools and other tools: AWS, Git/GitHub, VS Code.
+Miscellaneous: Data Structures and Algorithms, Object Oriented Programming, Databases(MongoDB, PostgreSQL).
+Projects
+ChefGPT W | Python, Langchain, Groq, Streamlit Jun 2024
+• Developed an AI-powered personal chef assistant using LangChain and Streamlit, capable of suggesting recipes
+based on ingredients or dietary preferences, with allergy-friendly filtering while maintaining the context throughout
+the conversation.
+• Integrated external APIs to fetch relevant data, implemented Retrieval-Augmented Generation (RAG), agents in
+Langchain and created an interactive UI with Streamlit to provide a seamless and engaging experience.
+Tutor RAG W | Python, LangChain, Streamlit, ChromaDB Jun 2024
+• Developed an AI tutoring application using LangChain, Streamlit, and ChromaDB for context-aware conversation.
+• Implemented Retrieval-Augmented Generation (RAG) to improve the accuracy and relevance of responses.
+• Designed an interactive UI with Streamlit to provide a user-friendly experience.
+Road Safety and Accident Analysis | Python, NumPy, Pandas, Matplotlib, Seaborn Mar 2024
+• Data Analytics challenge aimed at improving road safety through AI-based Advanced Driver Assistance Systems
+(ADAS).
+• Identified patterns and trends related to road safety by analyzing factors like speed, location, and alert types to
+pinpoint high-risk areas (black spots) where accidents frequently occur.
+• Secured 4th position at the Vashisht Data Science hackathon.
+Lung Nodule Segmentation | Python, NumPy, OpenCV ,Keras, TensorFlow Aug 2023 – Nov 2023
+• A Deep Learning model for lung nodule segmentation in CT scans for early diagnosis of lung cancer.
+• The model was built using CNNs (Convolutional Neural Networks) and U-Net architecture.
+• Conducted extensive data preprocessing and augmentation to achieve a dice coefficient of 0.82 and 0.78 recall.
+Coursework and Certifications
+• Data Structures
+• Data Science
+• Optimization Techniques
+• Artificial Intelligence
+• ML Specialization - Coursera
+• Python - NPTEL
+Achievements
+• Won various competitions like Photon forge, Logic Loom in VASHISHT 2024 at IIITDM Kancheepuram.
+• Attained a 3-star coder distinction on Codechef, rating 1660.
+• Solved 270+ questions on Leetcode, contest rating 1662.
